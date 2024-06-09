@@ -1,6 +1,11 @@
 User Authentication System Documentation
 Overview
-This documentation covers the implementation of a secure user authentication system built with Node.js and Express. The system supports user registration and login functionalities, employing modern web development practices and ensuring adherence to industry standards for security and data integrity.
+
+
+This documentation covers the implementation of a secure user authentication system built with Node.js and Express. The system supports user registration and login functionalities,
+employing modern web development practices and ensuring adherence to industry standards for security and data integrity.
+
+
 Features
 User Registration
 •	Users can create an account by providing a username, email, and password.
@@ -46,6 +51,8 @@ Copy code
 ├── env
 │
 └── README.md
+
+
 Dependencies
 •	Express: Web framework for Node.js.
 •	Mongoose: MongoDB object modeling tool.
@@ -54,6 +61,8 @@ Dependencies
 •	jsonwebtoken: Library for generating and verifying JWTs.
 •	cors: Middleware for enabling CORS.
 •	body-parser: Middleware for parsing JSON request bodies.
+
+
 Installation
 1.	Install dependencies:
 
